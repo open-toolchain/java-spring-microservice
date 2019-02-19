@@ -40,7 +40,7 @@ Credentials are either taken from the VCAP_SERVICES environment variable that IB
 
 To build and run the application:
 1. `mvn install`
-1. `java -jar ./target/JavaMicroservicewithSpringLVYYN-1.0-SNAPSHOT.jar`
+1. `java -jar ./target/JavaMicroservicewithSpring-1.0-SNAPSHOT.jar`
 
 To run the application in Docker use the Docker file called `Dockerfile`. If you do not want to install Maven locally you can use `Dockerfile-tools` to build a container with Maven installed.
 
