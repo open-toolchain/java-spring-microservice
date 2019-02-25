@@ -1,4 +1,4 @@
-FROM ibmjava:8-sfj
+FROM ibmjava:8-sfj-alpine
 LABEL maintainer="IBM Java Engineering at IBM Cloud"
 
 COPY target/JavaMicroservicewithSpring-1.0-SNAPSHOT.jar /app.jar
